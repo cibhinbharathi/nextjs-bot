@@ -76,7 +76,7 @@ const handleClick = async () => {
   setLoading(true);
 
   try {
-    const response = await fetch("http://20.62.235.39/ai_response", {
+    const response = await fetch("http://127.0.0.1:5000/ai_response", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -103,7 +103,7 @@ const handleClick = async () => {
 const handleCancel = () => {
   if (currentRequestId) {
     // Send a cancel request to your backend
-     fetch("http://20.62.235.39/cancel_request", {
+     fetch("http://127.0.0.1:5000/cancel_request", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
