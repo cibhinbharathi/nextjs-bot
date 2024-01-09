@@ -1,0 +1,27 @@
+header {
+  height: 10vh;  /* 10% of the viewport height */
+}
+
+body {
+  height: 90vh;  /* 90% of the viewport height */
+  overflow-y: auto;  /* allow scrolling within the main content, but not the whole page */
+}
+
+.source1{
+color: #0082c9;
+}
+.bg-f1f2f2 {
+background-color: #f1f2f2;
+}
+
+.bg-bcbec0 {
+background-color: #bcbec0;
+}
+
+.message-content {
+width: 100%; /* Increase the width as needed */
+}
+
+.message-box-wide {
+max-width: 50%; /* or any other width you prefer */
+}
